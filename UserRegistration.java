@@ -17,5 +17,17 @@ public class UserRegistration {
         else{
             System.out.println("Input is not valid");
         }
+        System.out.println("Enter last name");
+        String LastName = sc.next();
+        pattern = "(^[A-Z])([a-z]){2,}";
+        r= Pattern.compile(pattern);
+        m=r.matcher(LastName);
+        match= m.matches();
+        if(match){
+            System.out.println("Last name is valid");
+        }
+        else{
+            System.out.println("Last name is not valid");
+        }
     }
 }
