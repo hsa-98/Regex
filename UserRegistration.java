@@ -28,7 +28,13 @@ public class UserRegistration {
         System.out.println(num);
         pattern = "[0-9]{2}[0-9]{10}";
         userRegistration.validate(pattern,num);
-        
+
+        System.out.println("Enter the password");
+        String password = sc.next();
+        pattern = "(?=.*[A-Z])[a-zA-z_0-9!@#$%]{8,}";
+        userRegistration.validate(pattern,password);
+
+
     }
     public void  validate(String pattern,String data){
         Pattern pattern1 = Pattern.compile(pattern);
