@@ -23,6 +23,12 @@ public class UserRegistration {
         userRegistration.validate(pattern,email);
 
 
+        System.out.println("Enter phone num");
+        String num = sc.next();
+        System.out.println(num);
+        pattern = "[0-9]{2}[0-9]{10}";
+        userRegistration.validate(pattern,num);
+        
     }
     public void  validate(String pattern,String data){
         Pattern pattern1 = Pattern.compile(pattern);
