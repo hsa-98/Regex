@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UserRegistrationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-07-05T15:49:56" hostname="DESKTOP-8P64EGP" time="0.052">
+  <properties/>
+  <testcase name="given_Invalid_LastName_Returns_Exception()" classname="UserRegistrationTest" time="0.022"/>
+  <testcase name="given_Invalid_Email_Returns_Exception()" classname="UserRegistrationTest" time="0.002"/>
+  <testcase name="given_Invalid_Name_Returns_Exception()" classname="UserRegistrationTest" time="0.002"/>
+  <testcase name="checkPassword()" classname="UserRegistrationTest" time="0.005"/>
+  <testcase name="checkEmail()" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="given_Invaid_Number_Returns_Exception()" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="checkName()" classname="UserRegistrationTest" time="0.002"/>
+  <testcase name="checkNumber()" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="checkLastName()" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="given_Invalid_Password_Returns_Exception()" classname="UserRegistrationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
