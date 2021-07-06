@@ -1,3 +1,5 @@
+IUserRegistration.java
+ IUserRegistration
 UserRegistrationException.java
  UserRegistrationException
  UserRegistrationException$ExceptionType
